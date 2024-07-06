@@ -6,7 +6,7 @@ liste_course=[]
 
 while True:
     action = input("Choisissez parmis les 5 options suivantes : \n 1 : Ajouter un élément à la liste de courses\n 2 : Retirer un élément de la liste de courses\n 3 : Afficher les éléments de la liste de courses\n 4 : Vider la liste de courses\n 5 : Quitter le programme\n Votre Choix : ")
-    if not action.isdigit() in range(1,6):
+    if  int(action) not in range(1,6):
             print("Veuillez entrer une action valide : ")
     elif int(action)==1:
           element_to_add = input("Entrez le nom d'un élment à ajouter à la liste de course : ")
