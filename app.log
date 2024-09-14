@@ -1,0 +1,5 @@
+2024-09-12 14:06:27,011 - DEBUG - debug permet juste de voir si une fonction est excecuter. comme un print. voir le retour de notre script
+2024-09-12 14:06:27,011 - INFO - permet d'avoir un message generique lu par un utilisateur
+2024-09-12 14:06:27,011 - WARNING - avertissement
+2024-09-12 14:06:27,011 - ERROR - une erreur s'estpridiuit
+2024-09-12 14:06:27,012 - CRITICAL - erreur critique, le script s'arrete
