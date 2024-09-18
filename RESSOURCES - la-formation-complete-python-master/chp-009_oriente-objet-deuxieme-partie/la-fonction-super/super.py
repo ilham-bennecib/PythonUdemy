@@ -1,3 +1,13 @@
+"""EXPLICATION :
+La methode super permet d'appeler le parent snas mettre son nom (dans le cas où on est amener à changer le nom de la classe)
+
+On remplace le nom de la classe parent par super()
+ATTENTION : dans ce cas, il ne faut pas mettre le self
+
+"""
+
+
+
 projets = ["pr_GameOfThrones", "HarryPotter", "pr_Avengers"]
 class Utilisateur:
     def __init__(self, nom, prenom):
@@ -13,7 +23,7 @@ class Utilisateur:
 
 class Junior(Utilisateur):
     def __init__(self, nom, prenom):
-        super().__init__(nom, prenom)
+        super().__init__(nom, prenom) 
 
 paul = Junior("Paul", "Durand")
 paul.afficher_projets()
