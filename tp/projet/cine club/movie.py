@@ -49,11 +49,10 @@ class Movie:
     
 
 def get_movies():
-        movies=[]
+        
         with open(chemin_liste, "r") as f:
             liste = json.load(f)
-            for e in liste:
-                movies.append(Movie(e))
+        movies=[Movie(e) for e in liste]#comprenhiosn de liste avec boucle pour ajouter les titre comme instance de notre classe
         print(movies)
         
     
